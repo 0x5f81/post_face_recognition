@@ -1,0 +1,22 @@
+Env: dev
+HttpPort: 9501 #http端口
+WssPort: 9551  #websocket ssl 端口
+LogFile: ./logs/output.log # 日志文件
+ShowSql: false # 是否打印sql
+StaticPath: ../www  # 根路径下的静态文件目录，可配置绝对路径
+
+# 数据库连接
+MysqlUrl: root:Passw0rd@mysql!123@tcp(118.25.198.173:3306)/msg_switch?charset=utf8mb4&parseTime=True&loc=Local
+
+# 微信登录配置
+WeChartLogin:
+  AppID:
+  AppSecret:
+
+# smtp
+Smtp:
+  Host: smtp.qq.com
+  Port: 25
+  Username:
+  Password:
+  SSL: true #true or false (bool型)
